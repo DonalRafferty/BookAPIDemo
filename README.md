@@ -2,7 +2,7 @@
 
 This is a simple example exercise that demonstrates the use of the Giphy API.
 
-It is a simple application based on the MEAN stack that allows a user to cos cats or dogs (or both) and a selection of 100 Gifs are then returned from the Giphy API.
+It is a simple application based on the MEAN stack that allows a user to chose cats or dogs (or both) and a selection of 100 Gifs are then returned from the Giphy API.
 
 ## Dependencies
 
