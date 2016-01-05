@@ -27,3 +27,4 @@ It is a simple application based on the MEAN stack that allows a user to chose c
 * Provide a loading indicator to the user while the Gifs are loading
 * Lazy load the Gif images
 * Provide a better pagination experience and make it a directive so it can be used at the top and bottom of the Gifs
+* Break out the client side code into its own "GIF" module
