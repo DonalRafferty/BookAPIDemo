@@ -1,0 +1,25 @@
+/* Stylesheet for Buttons */
+
+.paginationButton {
+    background-color:#637aad;
+    border:1px solid #314179;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+}
+.paginationButton:hover {
+    background-color:#5972a7;
+}
+.paginationButton:active {
+    position:relative;
+    top:1px;
+}
+
+.backButton{
+    margin-left: 11.7em;
+    margin-top: 1em;
+}

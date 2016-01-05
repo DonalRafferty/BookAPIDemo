@@ -1,0 +1,61 @@
+/* Stylesheet for Core of application*/
+
+.container{
+    margin: auto;
+    width: 80%;
+}
+
+.header{
+    min-height: 7em;
+    padding: 2em;
+}
+
+.gifImage{
+    max-width: 300px;
+    min-width: 300px;
+    padding:1em;
+    min-height:200px;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.hoverGif figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hoverGif figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.ul-no-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ul-no-style li {
+    float: left;
+}
+
+.pagination{
+    float: right;
+    padding: 2em;
+    margin-top: 5em;
+}
+
+.catDogForm{
+    padding: 1em;
+    margin-top: 1em;
+}
+
+h2 {
+    color: #5972a7;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+}

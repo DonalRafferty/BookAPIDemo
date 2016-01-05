@@ -1,0 +1,21 @@
+/* Stylesheet for Lists */
+
+#list-styled {
+    width:320px;
+}
+#list-styled ul {
+    list-style-type: none;
+}
+#list-styled ul li {
+
+}
+#list-styled ul li p {
+    padding:8px;
+    font-size:13px;
+    color:#5972a7;
+    border-left: 1px solid #5972a7;
+}
+#list-styled ul li p em {
+    display:block;
+    font-size:17px;
+}
