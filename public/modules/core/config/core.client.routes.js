@@ -13,8 +13,8 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
                 templateUrl: 'modules/core/views/home.client.view.html'
             }).
             state('viewGif', {
-                url: '/:gifId',
-                templateUrl: 'modules/core/views/view-gif.client.view.html'
+                url: '/:bookId',
+                templateUrl: 'modules/core/views/view-book.client.view.html'
             });
     }
 ]);

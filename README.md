@@ -1,15 +1,16 @@
-# Giphy Demo Exercise
+# Book API Demo Exercise
 
-This is a simple example exercise that demonstrates the use of the Giphy API.
+This is a simple example exercise that demonstrates the use of the Book API here - http://docs.tpbookserver.apiary.io/.
 
-It is a simple application based on the MEAN stack that allows a user to chose cats or dogs (or both) and a selection of 100 Gifs are then returned from the Giphy API.
+It is a simple application based on the MEAN stack that allows a user see a selection of books, click on one and see the books details, it is a simple master/detail flow
 
 ## Dependencies
 
 * NodeJS
 * NPM
 * Bower
-* GruntJS
+* Grunt CLi (For tests)
+* Karma CLI (For tests)
 
 ## To build
 
@@ -21,10 +22,3 @@ It is a simple application based on the MEAN stack that allows a user to chose c
 ## To Test
 
 * After building simply run the grunt test command to run both server and client tests
-
-## Things to improve
-
-* Provide a loading indicator to the user while the Gifs are loading
-* Lazy load the Gif images
-* Provide a better pagination experience and make it a directive so it can be used at the top and bottom of the Gifs
-* Break out the client side code into its own "GIF" module

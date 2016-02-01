@@ -2,8 +2,8 @@
 
 module.exports = {
 	app: {
-		title: 'Giphy Demo',
-		description: 'Giphy Demo',
+		title: 'Book API',
+		description: 'Book API Demo',
 		keywords: ''
 	},
 	port: process.env.PORT || 3000,

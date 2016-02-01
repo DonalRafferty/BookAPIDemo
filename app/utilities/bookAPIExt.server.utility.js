@@ -13,7 +13,7 @@ config = require('./../../config/config');
  */
 var doRequest = function(options, injectedCallback){
     //Simple HTTP GET to retrieve and append the data to a String
-    http.get(options.host + options.path + options.api_key + options.limit, function(response){
+    http.get(options.host + options.path, function(response){
         var str = '';
 
         //Another chunk of data has been received, so append it to `str`
@@ -29,37 +29,32 @@ var doRequest = function(options, injectedCallback){
 };
 
 /**
- * Helper function that retrieves the list of Gifs
+ * Helper function that retrieves the list of Books
  * from the url in JSON format.
  * The injectedCallback is used to asynchronously pass
  * the results to the next part of the chain.
  * @param injectedCallback
  */
-exports.retrieveGiphyJSON = function(value, injectedCallback){
+exports.retrieveBooks = function(injectedCallback){
     var options = { //options object for holding URL data
-        host: config.giphy_api.host,
-        path: '/search?q=' + value,
-        api_key: '&api_key=' + config.giphy_api.api_key,
-        limit: '&limit=100'
+        host: config.book_api.host,
+        path: 'books'
     };
 
     doRequest(options, injectedCallback);
-
 };
 
 /**
- * Helper function that retrieves a single Gif
+ * Helper function that retrieves a single Book
  * from the url in JSON format.
  * The injectedCallback is used to asynchronously pass
  * the results to the next part of the chain.
  * @param injectedCallback
  */
-exports.gifByID = function(value, injectedCallback){
+exports.bookByID = function(value, injectedCallback){
     var options = { //options object for holding URL data
-        host: config.giphy_api.host,
-        path: '/' + value,
-        api_key: '?api_key=' + config.giphy_api.api_key,
-        limit: ''
+        host: config.book_api.host,
+        path: 'book/' + encodeURIComponent(value)
     };
 
     doRequest(options, injectedCallback);

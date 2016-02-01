@@ -1,6 +1,6 @@
 {
-  "name": "GiphyDemo",
-  "description": "Giphy Demo",
+  "name": "book-api-demo",
+  "description": "An example demo for the Book API",
   "version": "0.0.1",
   "author": "Donal Rafferty",
   "engines": {

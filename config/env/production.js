@@ -5,7 +5,7 @@ module.exports = {
 		lib: {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.min.css',
-				'public/lib/bootstrap/dist/css/bootstrap-theme.min.css',
+				'public/lib/bootstrap/dist/css/bootstrap-theme.min.css'
 			],
 			js: [
 				'public/lib/angular/angular.min.js',
@@ -22,8 +22,7 @@ module.exports = {
 		css: 'public/dist/application.min.css',
 		js: 'public/dist/application.min.js'
 	},
-    giphy_api: {
-        host: 'http://api.giphy.com/v1/gifs',
-        api_key: 'dc6zaTOxFJmzC'
+    book_api: {
+        host: 'http://tpbookserver.herokuapp.com/'
     }
 };

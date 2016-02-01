@@ -1,0 +1,13 @@
+<section data-ng-controller="HomeController" data-ng-init="findOne()">
+    <div class="loader" ng-show="loading">Loading...</div>
+    <article ng-hide="loading">
+        <figure>
+            <img src="./modules/core/img/book_empty.jpg" alt="Book Empty" />
+        </figure>
+        <div class="details">
+            <h2>{{book.title}}</h2>
+            <h3>By {{book.author}} | <em>{{book.price | currencyFilter:book.currencyCode}}</em></h3>
+            <p>{{book.description}}</p>
+        </div>
+    </article>
+</section>
