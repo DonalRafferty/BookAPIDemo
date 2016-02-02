@@ -22,3 +22,7 @@ It is a simple application based on the MEAN stack that allows a user see a sele
 ## To Test
 
 * After building simply run the grunt test command to run both server and client tests
+
+## TODO
+
+* Develop sad paths

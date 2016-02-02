@@ -12,7 +12,7 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
                 url: '/',
                 templateUrl: 'modules/core/views/home.client.view.html'
             }).
-            state('viewGif', {
+            state('viewBook', {
                 url: '/:bookId',
                 templateUrl: 'modules/core/views/view-book.client.view.html'
             });

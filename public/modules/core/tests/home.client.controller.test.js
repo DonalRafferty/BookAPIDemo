@@ -25,30 +25,30 @@
             });
 
             exampleBooks = [{
-                id: 100,
-                title: "Code Complete: A Practical Handbook of Software Construction",
-                isbn: "978-0735619678",
-                price: 2954,
-                currencyCode: "EUR",
-                author: "Mike Riley"
+                    id: 100,
+                    title: 'Code Complete: A Practical Handbook of Software Construction',
+                    isbn: '978-0735619678',
+                    price: 2954,
+                    currencyCode: 'EUR',
+                    author: 'Mike Riley'
                 },
                 {
                     id: 200,
-                    title: "The Pragmatic Programmer",
-                    isbn: "978-0201616224",
+                    title: 'The Pragmatic Programmer',
+                    isbn: '978-0201616224',
                     price: 3488,
-                    currencyCode: "EUR",
-                    author: "Andrew Hunt and Dave Thomas"
+                    currencyCode: 'EUR',
+                    author: 'Andrew Hunt and Dave Thomas'
                 }];
 
             exampleBook = {
                 id: 600,
-                title: "Android Application Development For Dummies",
-                isbn: "978-0470770184",
-                description: "The popularity of the Android market is soaring with no sign of slowing down. The open nature of the Android OS offers programmers the freedom to access the platform's capabilities and this straightforward guide walks you through the steps for creating amazing Android applications. Android programming expert Donn Felker explains how to download the SDK, get Eclipse up and running, code Android applications, and submit your finished products to the Android Market. Featuring two sample programs, this introductory book explores everything from the simple basics to more advanced aspects of the Android platform.",
+                title: 'Android Application Development For Dummies',
+                isbn: '978-0470770184',
+                description: 'The popularity of the Android market is soaring with no sign of slowing down. The open nature of the Android OS offers programmers the freedom to access the platform\'s capabilities and this straightforward guide walks you through the steps for creating amazing Android applications. Android programming expert Donn Felker explains how to download the SDK, get Eclipse up and running, code Android applications, and submit your finished products to the Android Market. Featuring two sample programs, this introductory book explores everything from the simple basics to more advanced aspects of the Android platform.',
                 price: 1979,
-                currencyCode: "USD",
-                author: "Donn Felker"
+                currencyCode: 'USD',
+                author: 'Donn Felker'
             };
         }));
 

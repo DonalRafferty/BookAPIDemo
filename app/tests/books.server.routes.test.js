@@ -8,7 +8,7 @@ var expect = require('chai').expect,
     url = '/books';
 
 /**
- * Gif routes tests
+ * Book routes tests
  */
 describe('Book route tests', function () {
 
